@@ -1,0 +1,21 @@
+{
+  "name": "todo-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --features --steps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@codeceptjs/configure": "^1.0.1",
+    "@types/node": "^22.5.5",
+    "@wdio/selenium-standalone-service": "^8.14.0",
+    "codeceptjs": "^3.6.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2",
+    "webdriverio": "^9.0.9"
+  }
+}
