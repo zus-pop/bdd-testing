@@ -1,5 +1,4 @@
 import { setHeadlessWhen, setCommonPlugins } from "@codeceptjs/configure";
-import "dotenv/config";
 // turn on headless mode when running with HEADLESS=true environment variable
 // export HEADLESS=true && npx codeceptjs run
 setHeadlessWhen(process.env.HEADLESS);
